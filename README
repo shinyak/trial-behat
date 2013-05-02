@@ -1,0 +1,11 @@
+準備
+1. /path/to/component にライブラリインストールしたとする
+2. chmod 775 /path/to/component/vendor/behat/behat/bin/behat
+3. behat.yml を編集し base_url をテスト実行環境のURLに変更
+
+テスト実行
+1. cd behat_sampl
+2. /path/to/component/bin/behat --ansi --lang=ja
+
+1. cd behat_sampl
+2. /path/to/component/bin/behat --ansi --lang=ja features/smoke/response_status.feature

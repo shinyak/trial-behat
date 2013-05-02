@@ -1,0 +1,6 @@
+default:
+  extensions:
+    Behat\MinkExtension\Extension:
+      default_session: goutte
+      base_url: 'http://oshiete.goo.ne.jp/'
+      goutte:    ~
